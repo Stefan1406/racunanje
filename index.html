@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Racunanje</title>
+</head>
+
+<body>
+    <script>
+
+      var x = prompt ("Please enter number A: ");
+      var sign = prompt ("Please enter sign: ");
+      var sum = null;
+
+      switch (sign) {
+          case "+":
+          var y = prompt ("Please enter number B: ");
+          var sum = parseInt(x) + parseInt(y);
+          break;
+
+          case "-":
+          var y = prompt ("Please enter number B: ");
+          var sum = parseInt(x) - parseInt(y);
+          break;
+
+          case "*":
+          var y = prompt ("Please enter number B: ");
+          var sum = parseInt(x) * parseInt(y);
+          break;
+
+          case "/":
+          var y = prompt ("Please enter number B: ");
+          var sum = parseInt(x) / parseInt(y);
+          break;
+
+
+          default:
+          alert("Unknown sign!");
+
+      }
+
+      alert (sum);
+
+
+    </script>
+</body>
+</html>
